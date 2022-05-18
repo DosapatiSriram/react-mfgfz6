@@ -4,7 +4,7 @@ class ToggleComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      toggle: false,
+      toggle: props.toggle,
     };
   }
 
@@ -25,4 +25,26 @@ class ToggleComponent extends React.Component {
   }
 }
 
-export default ToggleComponent;
+const mapStateToProps = (state) => {
+   toggle : state.toggle
+}
+
+const mapDispatchToProps = () => {
+  
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(ToggleComponent);
+
+
+ReadableStreamDefaultController
+
+ case typeof
+
+   dispatch({ .., type})
+
+
+const = {
+  dispatch
+
+}   
+
