@@ -25,26 +25,28 @@ class ToggleComponent extends React.Component {
   }
 }
 
-const mapStateToProps = (state) => {
-   toggle : state.toggle
-}
+// const mapStateToProps = (state) => {
+//    toggle : state.toggle
+// }
 
-const mapDispatchToProps = () => {
+// const mapDispatchToProps = () => {
   
-}
+// }
 
-export default connect(mapStateToProps,mapDispatchToProps)(ToggleComponent);
+// export default connect(mapStateToProps,mapDispatchToProps)(ToggleComponent);
 
-
-ReadableStreamDefaultController
-
- case typeof
-
-   dispatch({ .., type})
+export default ToggleComponent;
 
 
-const = {
-  dispatch
+// ReadableStreamDefaultController
 
-}   
+//  case typeof
+
+//    dispatch({ .., type})
+
+
+// const = {
+//   dispatch
+
+// }   
 
